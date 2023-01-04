@@ -1,0 +1,7 @@
+= darttest
+
+This repo is a place to find a few test examples, and a playpen for exploring
+the testing of dart classes and programs.
+
+There is intentionally no _pubspec.yaml_ file provided in the repo,
+since creating that file is one of the first exercises.
