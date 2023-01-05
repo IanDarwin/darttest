@@ -10,7 +10,7 @@ main() {
       expect(() => "abc".substring(-1), throwsRangeError);
     });
     test("Deliberately throwing a 'MyError'", () {
-      expect(() => dummyProcess(""), throwsA(TypeMatcher<MyError>()));
+      expect(() => dummyProcess("1"), throwsA(TypeMatcher<MyError>()));
     });
   });
 }

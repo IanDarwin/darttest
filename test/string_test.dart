@@ -4,6 +4,7 @@ void main() {
   // Individual test
   test('String == operator', () {
       expect("abc" == "abc", true);
+      expect("abc" == "def", false);
   });
   // Group of tests
   group('String indexing', () {
